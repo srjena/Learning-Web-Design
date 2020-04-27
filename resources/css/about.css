@@ -1,0 +1,25 @@
+.about {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 5rem auto;
+	height: 450px;
+	border-radius: 5px;
+	grid-column-gap: 2rem;
+}	
+
+.about .image {
+	grid-column: 1/2;
+}
+.about .image img {
+	height: 450px;
+	object-fit: fill;
+	border-radius: 5px;
+}
+.about .about-me {
+	grid-column	: 2/3;
+}
+.about .about-me p{
+	font-size: 16px;
+	color: var(--offwhite);
+	line-height: 2rem;
+}
